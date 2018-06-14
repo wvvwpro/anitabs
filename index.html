@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <title>Animated tabs</title>
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+    <link rel="stylesheet" type="text/css" href="css/anitabs.css">     
+</head>
+<body>   
+<!-- begin fade example -->    
+<h2>Fade tabs (with animated navigation)</h2>  
+<div class="tabs js-tabs">
+    <div class="tabs-nav js-tabs-nav" id="fade-example">
+        <ul class="tabs-nav__list">
+            <li class="tabs-nav__item js-tabs-item active">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-1">First tab</a>
+            </li>
+            <li class="tabs-nav__item js-tabs-item">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-2">Second tab</a>
+            </li>
+            <li class="tabs-nav__item js-tabs-item">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-3">Third tab</a>
+            </li>                               
+        </ul>
+        <span class="tabs-nav__drag js-tabs-drag"></span>
+    </div>
+    <div class="tabs-content js-tabs-wrap">
+        <div class="tab js-tabs-content active" id="tab-1">First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content</div>
+        <div class="tab js-tabs-content" id="tab-2">Second tab content<br>Second tab content<br>Second tab content<br>Second tab content</div>
+        <div class="tab js-tabs-content" id="tab-3">Third tab content<br>Third tab content</div>
+    </div>  
+</div>
+<!-- fade example eof -->
+<!-- begin slide example -->    
+<h2>Slide tabs to left (with animated navigation)</h2>  
+<div class="tabs js-tabs">
+    <div class="tabs-nav js-tabs-nav" id="slide-example">
+        <ul class="tabs-nav__list">
+            <li class="tabs-nav__item js-tabs-item active">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-4">First tab</a>
+            </li>
+            <li class="tabs-nav__item js-tabs-item">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-5">Second tab</a>
+            </li>
+            <li class="tabs-nav__item js-tabs-item">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-6">Third tab</a>
+            </li>                               
+        </ul>
+        <span class="tabs-nav__drag js-tabs-drag"></span>
+    </div>
+    <div class="tabs-content js-tabs-wrap">
+        <div class="tab js-tabs-content active" id="tab-4">First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content</div>
+        <div class="tab js-tabs-content" id="tab-5">Second tab content<br>Second tab content<br>Second tab content<br>Second tab content</div>
+        <div class="tab js-tabs-content" id="tab-6">Third tab content<br>Third tab content</div>
+    </div>  
+</div>
+<!-- slide example eof -->     
+<!-- begin custom example -->    
+<h2>Slide tabs to right (without animated navigation &amp; auto-height)</h2>  
+<div class="tabs js-tabs">
+    <div class="tabs-nav js-tabs-nav" id="custom-example">
+        <ul class="tabs-nav__list">
+            <li class="tabs-nav__item js-tabs-item active">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-7">First tab</a>
+            </li>
+            <li class="tabs-nav__item js-tabs-item">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-8">Second tab</a>
+            </li>
+            <li class="tabs-nav__item js-tabs-item">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-9">Third tab</a>
+            </li>                               
+        </ul>
+        <span class="tabs-nav__drag js-tabs-drag"></span>
+    </div>
+    <div class="tabs-content js-tabs-wrap">
+        <div class="tab js-tabs-content active" id="tab-7">First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content</div>
+        <div class="tab js-tabs-content" id="tab-8">Second tab content<br>Second tab content<br>Second tab content<br>Second tab content</div>
+        <div class="tab js-tabs-content" id="tab-9">Third tab content<br>Third tab content</div>
+    </div>  
+</div>
+<!-- custom example eof -->  
+<!-- begin multiple example -->    
+<h2>Multiple tabs</h2>  
+<div class="tabs js-tabs">
+    <div class="tabs-nav js-tabs-nav" id="multiple-example">
+        <ul class="tabs-nav__list">
+            <li class="tabs-nav__item js-tabs-item active">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-10">First tab</a>
+            </li>
+            <li class="tabs-nav__item js-tabs-item">
+                <a class="tabs-nav__link js-tabs-link" href="#tab-11">Second tab</a>
+            </li>                            
+        </ul>
+        <span class="tabs-nav__drag js-tabs-drag"></span>
+    </div>
+    <div class="tabs-content js-tabs-wrap">
+        <div class="tab js-tabs-content active" id="tab-10">                   
+            First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content<br>First tab content
+            <div class="tabs-inner js-tabs">
+                <div class="tabs-nav js-tabs-nav" id="multiple-inner">
+                    <ul class="tabs-nav__list">
+                        <li class="tabs-nav__item js-tabs-item active">
+                            <a class="tabs-nav__link js-tabs-link" href="#tab-12">First inner</a>
+                        </li>
+                        <li class="tabs-nav__item js-tabs-item">
+                            <a class="tabs-nav__link js-tabs-link" href="#tab-13">Second inner</a>
+                        </li>                            
+                    </ul>
+                    <span class="tabs-nav__drag js-tabs-drag"></span>
+                </div> 
+                <div class="tabs-content js-tabs-wrap">
+                    <div class="tab js-tabs-content active" id="tab-12">First inner content<br>First inner content<br>First inner content<br>First inner content<br>First inner content<br>First inner content</div>
+                    <div class="tab js-tabs-content" id="tab-13">Second inner content<br>Second inner content<br>Second inner content<br>Second inner content</div>
+                </div>
+            </div>             
+        </div>
+        <div class="tab js-tabs-content" id="tab-11">Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content<br>Second tab content</div>
+    </div>  
+</div>
+<!-- multiple example eof --> 
+<script src="js/jquery.js"></script>		
+<script src="js/jquery-migrate.js" ></script>      
+<script src="js/anitabs.js" ></script>  
+<script>
+	$(window).load(function(){
+		$("#fade-example .js-tabs-link").aniTabs();
+		$("#slide-example .js-tabs-link").aniTabs({animation:"slide", animationSpeed:600, dragSpeed:600});
+		$("#custom-example .js-tabs-link").aniTabs({animation:"slide", animationSpeed:800, slideDirection:"right", drag:false, autoHeight:false});
+		$("#multiple-example .js-tabs-link").aniTabs();
+		$("#multiple-inner .js-tabs-link").aniTabs({animation:"slide"});
+	})
+</script>	   
+</body>
+</html>
